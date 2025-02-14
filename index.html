@@ -18,13 +18,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /*
-    * Prefixed by https://autoprefixer.github.io
-    * PostCSS: v8.4.14,
-    * Autoprefixer: v10.4.7
-    * Browsers: last 4 version
-    */
-
     html {
       font-size: 62.5%;
       /* 10px */
@@ -112,14 +105,6 @@
     .logo {
       margin-bottom: var(--spacing-lg);
       display: inline-block;
-      text-decoration: none;
-      -webkit-transition: opacity 0.2s ease;
-      -o-transition: opacity 0.2s ease;
-      transition: opacity 0.2s ease;
-    }
-
-    .logo:hover {
-      opacity: 0.7;
     }
 
     .logo svg {
@@ -215,7 +200,7 @@
 <body>
   <main class="container">
     <div class="content">
-      <a href="/" class="logo">
+      <div class="logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="164" height="26" viewBox="0 0 164 26" fill="none">
           <path class="theme-path" d="M143.745 13.4743L140.938 19.581H135.115L142.213 4.18347H148.036L145.474 9.74139H153.705L156.273 4.18347H162.096L154.999 19.5746H149.176L151.983 13.4679H143.751L143.745 13.4743Z" fill="#323639" />
           <path class="theme-path" d="M123.831 14.7761L126.522 8.9629C126.626 8.7268 126.81 8.60556 127.08 8.60556H138.707L140.754 4.18347H126.7C126.271 4.18347 125.872 4.22814 125.486 4.29195L122.893 9.88177H120.258L117.322 16.2501C117.254 16.416 117.187 16.5755 117.132 16.7223C117.077 16.869 117.021 17.0222 116.985 17.1753C116.574 18.777 117.444 19.5746 119.602 19.5746H133.656L135.685 15.1525H124.058C123.825 15.1525 123.733 15.0696 123.776 14.8973C123.788 14.8399 123.807 14.8016 123.831 14.7697V14.7761Z" fill="#323639" />
@@ -226,7 +211,7 @@
           <path d="M37.2347 4.14551H24.3508C24.737 4.70704 25.0802 5.64506 24.7186 7.05528C24.6144 7.4509 24.4612 7.86567 24.265 8.29321H33.1464L32.3619 9.99695H23.4805L22.6469 11.8028C21.6233 14.0362 19.9438 15.4336 17.7434 15.9505L16.0333 19.5749H21.5252L23.9218 14.6807H27.7281L29.0459 19.5749H35.2733L33.6122 13.749C34.7339 13.6278 35.684 13.2832 36.4624 12.7089C37.2408 12.1346 37.8721 11.3178 38.3625 10.2586L39.5577 7.68062C39.7232 7.32328 39.8519 6.98509 39.9316 6.66603C40.3729 4.98781 39.4719 4.14551 37.2347 4.14551Z" fill="#A5D300" />
           <path fill-rule="evenodd" clip-rule="evenodd" d="M6.69258 4.14551H20.6123C22.8495 4.14551 23.7505 4.98781 23.3215 6.66603C23.2418 6.98509 23.1192 7.32328 22.9476 7.68062L21.3478 11.1519C20.269 13.5065 18.3996 14.687 15.7456 14.687H9.1627L11.3325 9.99695H15.7333L16.5179 8.29321H10.2642L6.68608 16.0592H10.5169L0.182861 23.9717L3.75626 16.2953H1.15742L5.02503 7.74463H5.03143L6.69258 4.14551Z" fill="#A5D300" />
         </svg>
-      </a>
+      </div>
       <h1>Access restricted</h1>
       <p>The project is not available in your country due to legal reasons.</p>
       <p>Is your region not restricted?<br>
